@@ -48,7 +48,7 @@ LLM-Agent/
 ├── prompts/               # Prompt templates
 │   └── .txt
 │
-├── utils/                 # Helper modules (e.g. memory, tools)
+├── utils/                 # Helper modules (e.g., memory, tools)
 │   └── .py
 │
 ├── notebooks/             # Jupyter experiments and notes
@@ -63,10 +63,6 @@ LLM-Agent/
 ## Contributing
 
 Contributions are welcome. Please open issues for bugs or feature requests, and submit pull requests for improvements.
-
-## License
-
-This project is licensed under the MIT License.
 
 ## Contact
 
