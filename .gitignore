@@ -1,3 +1,4 @@
 env/
 .ipynb_checkpoints/
 agents/1.Basic Prompt Loops/.env
+anaconda_projects/
