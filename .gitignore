@@ -7,3 +7,4 @@ auto_commit_config.json
 install_auto_commit.py
 auto_commit_watcher.py
 .vscode/
+.auto_commit_history.json
