@@ -3,9 +3,6 @@ env/
 agents/1.Basic Prompt Loops/.env
 anaconda_projects/
 agents/Stage2.Function Calling (Tool Use via API)/.env
-auto_commit_config.json
-install_auto_commit.py
-auto_commit_watcher.py
 .vscode/
 .auto_commit_history.json
 agents/Stage1.Basic Prompt Loops/.env
