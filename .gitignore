@@ -8,3 +8,36 @@ install_auto_commit.py
 auto_commit_watcher.py
 .vscode/
 .auto_commit_history.json
+agents/Stage1.Basic Prompt Loops/.env
+## Ignore common secret/API key files and patterns
+.env
+*.env
+*.env.*
+*.secret
+*.secrets
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.jks
+*.keystore
+*.credentials
+*.config
+*.token
+*.tokens
+*.apikey
+*.api_key
+*.api-token
+*.api_token
+*.auth
+*.auth_token
+*secret*
+*apikey*
+*token*
+*credential*
+*password*
+*passwd*
+*private*
