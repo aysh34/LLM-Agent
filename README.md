@@ -51,35 +51,16 @@ LLM-Agent is a reference project for building intelligent agents powered by larg
     python agent.py
     ```
 
-## Usage Guidelines
-
-- Edit configuration (e.g., environment variables or config module) to set goals, model parameters, and memory limits.
-- Add or swap reasoning strategies by extending the loop logic in the agents/ directory.
-- Introduce new tools by:
-  1. Implementing a wrapper in utils/ or a dedicated tools/ module.
-  2. Registering it with the agent's tool registry.
-  3. Updating prompt templates (prompts/) to expose capabilities.
-
 ## Project Structure
 
 ```
 LLM-Agent/
 ├── agents/             # Core agent classes, control loops
-├── prompts/            # Prompt templates and fragments
-├── utils/              # Memory, tool wrappers, shared helpers
 ├── notebooks/          # Experiments, exploratory analysis
 ├── requirements.txt
 ├── LICENSE
 └── README.md
 ```
-
-## Extending
-
-Common extension points:
-- Memory: swap in vector stores or persistent caches
-- Reasoning: implement alternative planning or reflection steps
-- Tools: add domain-specific APIs (data retrieval, task execution)
-- Prompts: parameterize style, system roles, safety constraints
 
 ## Development Workflow
 
