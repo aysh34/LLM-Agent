@@ -64,17 +64,4 @@ LLM-Agent/
 
 ## Contributing
 
-Contributions are welcome
-- Open an issue for bugs, questions, or feature requests
-
-## Citation
-
-If you reference this project in academic or technical writing:
-```
-@software{llm_agent_reference,
-  title        = {LLM-Agent: Practical Patterns for LLM-Powered Agents},
-  author       = {Repository Contributors},
-  year         = {2024},
-  url          = {https://github.com/aysh34/LLM-Agent}
-}
-```
+Contributions are welcome. Open an issue for bugs, questions, or feature requests.
