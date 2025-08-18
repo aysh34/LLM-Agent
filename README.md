@@ -62,46 +62,12 @@ LLM-Agent/
 └── README.md
 ```
 
-## Development Workflow
-
-Recommended steps when adding a feature:
-1. Draft design (issue or lightweight doc)
-2. Implement minimal vertical slice
-3. Add tests (if a testing framework is introduced)
-4. Update prompts / configs
-5. Document in README or a dedicated doc page
-6. Open pull request with clear summary and rationale
-
 ## Contributing
 
-Contributions are welcome:
+Contributions are welcome
 - Open an issue for bugs, questions, or feature requests
-- Fork, branch, and submit a pull request referencing an issue when applicable
-- Keep changes focused; large refactors should be discussed first
 
-Pull request checklist:
-- Clear description
-- Concise commits
-- Updated documentation (if behavior changes)
-- No unrelated formatting noise
-
-## Roadmap (Indicative)
-
-- Pluggable memory abstraction examples
-- Additional reasoning loop variants (plan–act–reflect)
-- Tool execution sandboxing
-- Evaluation harness for agent behaviors
-- Structured logging and tracing
-
-## License
-
-See LICENSE for full details.
-
-## Support / Questions
-
-Open a GitHub issue with a concise description, reproduction steps (if applicable), and environment details.
-
-## Citation (Optional)
+## Citation
 
 If you reference this project in academic or technical writing:
 ```
