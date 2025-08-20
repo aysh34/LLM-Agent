@@ -1,12 +1,3 @@
-############################################################
-# Project Ignore File (Python + Jupyter + Secrets + IDE)
-# NOTE: After modifying this file, run commands to untrack
-# already committed generated artifacts, e.g.:
-#   git rm -r --cached __pycache__ .pytest_cache .mypy_cache env anaconda_projects
-#   git add .gitignore
-#   git commit -m "chore: update .gitignore"
-############################################################
-
 # Virtual environments
 env/
 venv/
