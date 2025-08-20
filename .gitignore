@@ -1,10 +1,57 @@
+############################################################
+# Project Ignore File (Python + Jupyter + Secrets + IDE)
+# NOTE: After modifying this file, run commands to untrack
+# already committed generated artifacts, e.g.:
+#   git rm -r --cached __pycache__ .pytest_cache .mypy_cache env anaconda_projects
+#   git add .gitignore
+#   git commit -m "chore: update .gitignore"
+############################################################
+
+# Virtual environments
 env/
+venv/
+.venv/
+
+# Jupyter notebook checkpoints
 .ipynb_checkpoints/
-agents/1.Basic Prompt Loops/.env
+
+# Local data / project specific
 anaconda_projects/
-agents/Stage2.Function Calling (Tool Use via API)/.env
-.vscode/
+
+# Agent-specific env files
 agents/Stage1.Basic Prompt Loops/.env
+agents/Stage2.Function Calling (Tool Use via API)/.env
+
+# Editors / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Test & type checker caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Build / distribution artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
 ## Ignore common secret/API key files and patterns
 .env
 *.env
