@@ -68,14 +68,9 @@ LLMs is an educational repository focused on learning and building intelligent a
 LLMs/
 ├── agents/                                    # Progressive agent development stages
 │   ├── Stage1.Basic Prompt Loops/           # Introduction to agent reasoning loops
-│   │   └── StartupGuideAgent.ipynb          # Business-focused agent example
 │   └── Stage2.Function Calling (Tool Use via API)/  # Advanced agent capabilities
-│       ├── BasicFunctionCalling.ipynb      # Function calling examples
-│       └── StartupGuideAgent-II.ipynb      # Enhanced agent with tools
 ├── notebooks/                                # Educational and conceptual content
-│   └── LLM_vs_AI_agent_vs_LLM_agent.ipynb  # Core concepts explanation
 ├── Generative AI with LangChain/            # LangChain-related examples
-│   └── main.py                              # Additional examples
 ├── requirements.txt                          # Python dependencies
 ├── LICENCE                                   # License file
 └── README.md                                 # This file
