@@ -1,28 +1,30 @@
 ## Overview
 
-LLM-Agent is a reference project for building intelligent agents powered by large language models. It focuses on practical patterns for structuring reasoning loops, managing memory, integrating external tools, and composing modular capabilities. The repository is organized to let you start simple and iteratively add sophistication.
+LLMs is an educational repository focused on learning and building intelligent agents powered by large language models. This repository provides practical examples, tutorials, and progressive stages for understanding LLMs, AI agents, and LLM agents. It's structured to help you start with basic concepts and progressively build more sophisticated agent capabilities.
 
 ## Key Features
 
-- Goal-oriented agent design with configurable memory backends
-- Iterative reasoning / action loops
-- Tool and API integration layer (extensible registry pattern)
-- Modular prompts and prompt templates
-- Clear separation between core logic, utilities, and experimental notebooks
-- Example workflows to accelerate adaptation
+- Educational progression from basic LLMs to advanced agents
+- Stage 1: Basic prompt loops and reasoning patterns
+- Stage 2: Function calling and tool integration
+- Practical Jupyter notebooks with working examples
+- Clear explanations of LLM vs AI agent vs LLM agent concepts
+- Hands-on examples using Together AI and other LLM providers
+- Startup-focused use cases and business applications
 
 ## Prerequisites
 
 - Python 3.10+ (recommend using a virtual environment)
-- Access keys for any external LLM or tool APIs you plan to use
-- (Optional) Jupyter for exploratory development
+- Jupyter Notebook or JupyterLab for running the examples
+- API keys for LLM providers (Together AI, OpenAI, etc.) - see individual notebooks for requirements
+- Basic understanding of Python programming
 
 ## Quick Start
 
 1. Clone the repository
     ```bash
-    git clone https://github.com/aysh34/LLM-Agent.git
-    cd LLM-Agent
+    git clone https://github.com/aysh34/LLMs.git
+    cd LLMs
     ```
 
 2. Create and activate a virtual environment (recommended)
@@ -39,28 +41,50 @@ LLM-Agent is a reference project for building intelligent agents powered by larg
     pip install -r requirements.txt
     ```
 
-4. Create a .env file (example)
+4. Set up your API keys by creating a .env file (example)
     ```
-    OPENAI_API_KEY=your_key_here
-    OTHER_SERVICE_KEY=optional_key
+    TOGETHER_API_KEY=your_together_api_key_here
+    OPENAI_API_KEY=your_openai_key_here
     ```
-    Add any additional keys required by tools you enable.
+    Check individual notebooks for specific API key requirements.
 
-5. Run the baseline agent
+5. Start with the conceptual overview
     ```bash
-    python agent.py
+    jupyter notebook "notebooks/LLM_vs_AI_agent_vs_LLM_agent.ipynb"
+    ```
+
+6. Progress through the agent stages
+    ```bash
+    # Stage 1: Basic prompt loops
+    jupyter notebook "agents/Stage1.Basic Prompt Loops/StartupGuideAgent.ipynb"
+    
+    # Stage 2: Function calling
+    jupyter notebook "agents/Stage2.Function Calling (Tool Use via API)/BasicFunctionCalling.ipynb"
     ```
 
 ## Project Structure
 
 ```
-LLM-Agent/
-├── agents/             # Core agent classes, control loops
-├── notebooks/          # Experiments, exploratory analysis
-├── requirements.txt
-├── LICENSE
-└── README.md
+LLMs/
+├── agents/                                    # Progressive agent development stages
+│   ├── Stage1.Basic Prompt Loops/           # Introduction to agent reasoning loops
+│   └── Stage2.Function Calling (Tool Use via API)/  # Advanced agent capabilities
+├── notebooks/                                # Educational and conceptual content
+├── Generative AI with LangChain/            # LangChain-related examples
+├── requirements.txt                          # Python dependencies
+├── LICENCE                                   # License file
+└── README.md                                 # This file
 ```
+
+## Learning Path
+
+1. **Start Here**: Read `notebooks/LLM_vs_AI_agent_vs_LLM_agent.ipynb` to understand the fundamental differences between LLMs, AI agents, and LLM agents.
+
+2. **Stage 1**: Work through `agents/Stage1.Basic Prompt Loops/StartupGuideAgent.ipynb` to learn basic agent reasoning patterns (THINK-ACT-REFLECT loops).
+
+3. **Stage 2**: Progress to `agents/Stage2.Function Calling (Tool Use via API)/` to learn about function calling and tool integration in agents.
+
+4. **Additional Examples**: Explore the `Generative AI with LangChain/` directory for more advanced patterns.
 
 ## Contributing
 
