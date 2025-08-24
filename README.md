@@ -1,3 +1,5 @@
+![](https://github.com/aysh34/LLMs/blob/main/llm.png)
+
 ## Overview
 
 LLMs is an educational repository focused on learning and building intelligent agents powered by large language models. This repository provides practical examples, tutorials, and progressive stages for understanding LLMs, AI agents, and LLM agents. It's structured to help you start with basic concepts and progressively build more sophisticated agent capabilities.
