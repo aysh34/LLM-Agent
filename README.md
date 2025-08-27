@@ -78,16 +78,6 @@ LLMs/
 └── README.md                                 # This file
 ```
 
-## Learning Path
-
-1. **Start Here**: Read `notebooks/LLM_vs_AI_agent_vs_LLM_agent.ipynb` to understand the fundamental differences between LLMs, AI agents, and LLM agents.
-
-2. **Stage 1**: Work through `agents/Stage1.Basic Prompt Loops/StartupGuideAgent.ipynb` to learn basic agent reasoning patterns (THINK-ACT-REFLECT loops).
-
-3. **Stage 2**: Progress to `agents/Stage2.Function Calling (Tool Use via API)/` to learn about function calling and tool integration in agents.
-
-4. **Additional Examples**: Explore the `Generative AI with LangChain/` directory for more advanced patterns.
-
 ## Contributing
 
 Contributions are welcome. Open an issue for bugs, questions, or feature requests.
